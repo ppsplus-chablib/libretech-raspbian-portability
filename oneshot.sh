@@ -158,7 +158,7 @@ case $machine_arch in
 		fi
 		;;
 	armv7l)
-		if [ "${TARGET_OS_RELEASE[ID]}" != "raspbian" ]; then
+		if [ "${TARGET_OS_RELEASE[ID]}" != "HyperBian" ]; then
 			echo "os-release: for 32-bit systems, only Raspbian is supported." >&2
 			exit 1
 		fi
